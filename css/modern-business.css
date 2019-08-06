@@ -1,0 +1,204 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+header {
+  position: relative;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+}
+
+.masthead video{
+    position: relative;
+    background-size: cover;
+    display: block;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%); 
+}
+
+.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  opacity: 0.;
+  z-index: 0;
+}
+.bg-dark {
+  background-color: #9A192F !important;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #9A192F;
+  border-color: #CF202E;
+}
+.breadcrumb {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: .75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #9A192F;
+  border-radius: .25rem;
+}
+.card-footer {
+  padding: .75rem 1.25rem;
+  background-color: #9A192F;
+  border-top: 1px solid #CF202E;
+}
+a {
+  color: #f8f9fa;
+  text-decoration: none;
+  background-color: transparent;
+}
+A:link { COLOR: rgb(0, 68, 253); TEXT-DECORATION: none; font-weight: normal }
+A:visited { COLOR: rgb(255, 255, 255); TEXT-DECORATION: none; font-weight: normal }
+A:active { COLOR: rgb(255, 255, 255); TEXT-DECORATION: none }
+A:hover { COLOR: rgb(156, 156, 156); TEXT-DECORATION: none; font-weight: none }
+
+.wrapper {
+  overflow: hidden;
+}
+
+.sliding-background {
+  background: url("../Images/sliding-background.png") repeat-x;
+  height: 250px;
+  width: 5076px;
+  animation: slide 30s linear infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+.flex-section-service-blocks .title-col {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 18.75rem;
+}
+.flex-section-service-blocks .content-list-col {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2rem;
+  letter-spacing: .0437rem;
+}
+.grid-x>.small-12 {
+  width: 100%;
+}
+.grid-x>.small-1, .grid-x>.small-10, .grid-x>.small-11, .grid-x>.small-12, .grid-x>.small-2, .grid-x>.small-3, .grid-x>.small-4, .grid-x>.small-5, .grid-x>.small-6, .grid-x>.small-7, .grid-x>.small-8, .grid-x>.small-9, .grid-x>.small-full, .grid-x>.small-shrink {
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+}
+.cell {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  min-height: 0;
+  min-width: 0;
+  width: 100%;
+}
+.grid-x{
+  background-image: url("../Images/Maintair-1.jpg");
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+@media (pointer: coarse) and (hover: none) {
+  .mobile-resize{
+    width: 100%;
+  }
+}
+.gallery-block.grid-gallery{
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.gallery-block.grid-gallery .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block.grid-gallery .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.gallery-block.grid-gallery a:hover{
+  opacity: 0.8;
+}
+
+.gallery-block.grid-gallery .item img{
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.4s;
+}
+
+.gallery-block.grid-gallery .item{
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+
+  .gallery-block.grid-gallery .scale-on-hover:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+}
